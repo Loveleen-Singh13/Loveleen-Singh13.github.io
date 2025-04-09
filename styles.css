@@ -1,9 +1,11 @@
+/* Body colour */
 body {
     font-size: x-large;
     font-family: 'Times New Roman', serif;
     width: 100%;
     background-color:bisque;
 }
+/* Tiitle of the page */
 h1{
     color: beige;
     text-size-adjust:100px;
@@ -13,6 +15,7 @@ h1{
     border: 1cm;
    
 }
+/* Tag Line */
 p{
     font-style: italic;
     text-align: center;
@@ -22,23 +25,26 @@ p{
     border-radius: 10px;
     box-shadow: 0px 0px 10px rgba(20, 7, 7, 0.1);
 }
+/* Navigation bar */
 .nav {
   text-align: center;
   padding: 30px;
 }
+/* Search bar */
 .nav input[type="text"] {
   padding: 6px;
   border-radius: 5px;
   border: 1px solid #ccc;
   width:6cm;
-
 }
+/* Contents of navigation bar */
 h2{
     text-align: center;
     text-shadow: 1cm;
     font-family: 'Times New Roman', Times, serif;
     word-spacing: 2cm;
 }
+/* Section headings */
 h3 {
     background-color:blanchedalmond;
     padding: 20px;
@@ -48,13 +54,13 @@ h3 {
     text-align: center;
     text-decoration: double;
 }
+/* Veg and Non Veg headings */
 h4{
     text-align: center;
     text-decoration: double;
     text-shadow: 1cm;
-
-
 }
+/* Table modifications */
 table {
     margin: 0 auto;
     background-color: rgb(234, 197, 152);
@@ -62,10 +68,8 @@ table {
     border: 2px solid black;
     border-radius: 20px;
     position: static;
-
-
 }
-
+/* Content of the table */
 td {
     padding: 10px;
     margin: 10px;
@@ -73,31 +77,14 @@ td {
     border: 2px solid black;
     border-radius: 20px;
 }
-
+/* Images in the table */
 img { 
     width: 200px;
     height: 200px;
     max-width: 100%;
     border-radius: 8px;
-    
 }
-.flex-container {
-    display: flex;
-    background-color:rgb(225, 195, 150);
-   text-align: center;
-   align-self: center;
-   padding-left: 2cm;
-   border-radius: 8px;
-   padding-top: 1cm;
-   padding-bottom:1cm ;
-  }
-.flex-container > div {
-    background-color:bisque;
-    margin: 10px;
-    padding: 20px;
-    font-size: 30px;
-    border-radius: 8px;
-}
+
 .Order-Here {
     padding-left: 16cm;
     padding-right: 10cm;
@@ -158,4 +145,21 @@ ol {
     font-style: italic;
     color:brown;
   }
- 
+ /* Flex box */
+.flex-container {
+  display: flex;
+  background-color:rgb(225, 195, 150);
+ text-align: center;
+ align-self: center;
+ padding-left: 2cm;
+ border-radius: 8px;
+ padding-top: 1cm;
+ padding-bottom:1cm ;
+}
+.flex-container > div {
+  background-color:bisque;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+  border-radius: 8px;
+}
